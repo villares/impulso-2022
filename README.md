@@ -29,3 +29,7 @@ Um exemplo mais extenso de como combinar formas e cores. Código em https://gith
 Neste exemplo vamos experimentar as ideias de combinação ligando pontos de uma grade.
 Código em https://github.com/villares/impulso-2022/blob/main/08_ligando_pontos_grade.py 
 
+
+Material extra: setas com as permutações de dois pontos em um hexágono:
+https://github.com/villares/sketch-a-day/blob/main/2022/sketch_2022_09_20/sketch_2022_09_20.py 
+
