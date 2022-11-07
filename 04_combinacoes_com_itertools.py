@@ -3,15 +3,14 @@ from itertools import permutations
 from itertools import combinations_with_replacement
 from itertools import product
 
-
-frutas = ['uva', 'banana', 'maçã', 'kiwi']
+frutas = ['uva', 'banana', 'maçã', 'kiwi']  # uma lista de strings
 
 combos = list(combinations(frutas, 2))
 permutacoes = list(permutations(frutas, 2))
 cwr = list(combinations_with_replacement(frutas, 2))
-# product(frutas, frutas)
-produto = list(product(frutas, repeat=2))
+produto = list(product(frutas, repeat=2)) # equivale product(frutas, frutas)
 
+# Exemplo de product() provendo coordenadas de uma grade
 def setup():
     size(400, 400)
     for x, y in product((100, 200, 300), (50, 150, 250, 350)):
